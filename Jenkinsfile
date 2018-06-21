@@ -8,7 +8,7 @@ pipeline {
     environment {
         MAVEN_ARGS='-v /tmp/ninja/.m2:/root/.m2'
         DOCKER_HUB_ACCOUNT='thingxcloud'
-        APPLICATION_NAME='ninja'
+        APPLICATION_NAME='dd-jenkins'
         APPLICATION_TAG_VERSION='v0.0.1-rc3'
     }
     stages {
